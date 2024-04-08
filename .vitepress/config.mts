@@ -5,9 +5,9 @@ export default defineConfig({
     title: "沸羊羊微服务",
     description: "SpringBoot",
     lang: 'zh-CN',
-    base: '/base/',
+    base: '/yfd-doc',
     head: [
-        ['link', {rel: 'icon', href: '/base/favicon.ico'}]
+        ['link', {rel: 'icon', href: '/yfd-doc/favicon.ico'}]
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
