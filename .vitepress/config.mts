@@ -13,10 +13,12 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            {text: 'Home', link: '/'},
+            {text: '首页', link: '/'},
             {text: 'Examples', link: '/markdown-examples'}
         ],
-
+        search: {
+            provider: 'local'
+        },
         sidebar: [
             {
                 text: '使用github pages 发布 vitepress',
