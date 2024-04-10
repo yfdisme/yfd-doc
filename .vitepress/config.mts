@@ -18,9 +18,10 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Examples',
+                text: '使用github pages 发布 vitepress',
+                collapsed: false,
                 items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
+                    {text: '流程', link: '/githubPages'},
                     {text: 'Runtime API Examples', link: '/api-examples'},
                     {text: 'a', link: '/a'}
                 ]
